@@ -3,9 +3,9 @@ def ft_seed_inventory(seed_type: str, quantity: int, unit: str) -> None:
     if unit == "packets":
         text: str = f"{quantity} packets available"
     elif unit == "grams":
-        text: str = f"{quantity} grams total"
+        text = f"{quantity} grams total"
     elif unit == "area":
-        text: str = f"covers {quantity} square meters"
+        text = f"covers {quantity} square meters"
     else:
         print("Unknown unit type")
         return

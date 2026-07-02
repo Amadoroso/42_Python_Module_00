@@ -1,5 +1,5 @@
 # O for é tipo um while com o iterador integrado
-def ft_harvest_total():
+def ft_harvest_total() -> None:
     harvests: list = []
     for day in [1, 2, 3]:  # normalmente podia usar range()
         day_amount: int = int(input(f"Day {day} harvest: "))
